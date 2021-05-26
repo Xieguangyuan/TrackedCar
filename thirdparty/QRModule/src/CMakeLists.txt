@@ -1,0 +1,7 @@
+find_package(Zbar0)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+aux_source_directory(. qrscannerlib)
+add_library(qrscanner ${qrscannerlib})
+target_link_libraries( qrscanner ${OpenCV_LIBS})
+target_link_libraries( qrscanner ${ZBAR_LIBS} zbar)
