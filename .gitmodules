@@ -1,0 +1,15 @@
+[submodule "thirdparty/RaspberryPiMPU"]
+	path = thirdparty/RaspberryPiMPU
+	url = https://github.com/TSKangetsu/RaspberryPiMPU
+[submodule "thirdparty/RaspberryPiRC"]
+	path = thirdparty/RaspberryPiRC
+	url = https://github.com/TSKangetsu/RaspberryPiRC
+[submodule "thirdparty/QRModule"]
+	path = thirdparty/QRModule
+	url = https://github.com/Xieguangyuan/YJSP_QRModule
+[submodule "thirdparty/RuModule"]
+	path = thirdparty/RuModule
+	url = https://github.com/TSKangetsu/Ru_APM
+[submodule "thirdparty/EKFImp"]
+	path = thirdparty/EKFImp
+	url = https://github.com/simondlevy/TinyEKF
