@@ -1,1 +1,0 @@
-#include "qrscanner.hpp"

@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.0.0)
-set(CMAKE_MODULE_PATH ${ZBARCV_SOURCE_DIR})
-project(CVTesty VERSION 0.1.0)
-add_subdirectory(src)
-add_executable(CVTesty main.cpp)
-target_link_libraries(CVTesty qrscanner)
